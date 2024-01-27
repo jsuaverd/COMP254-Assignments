@@ -37,11 +37,11 @@ class doubly_linked_list(object):
             yield item_val
 
 items = doubly_linked_list()
-items.append_item('Java')
-items.append_item('Python')
-items.append_item('C')
-items.append_item('C++')
-items.append_item('PHP')
+items.append_item('Apple')
+items.append_item('Banana')
+items.append_item('Coconut')
+items.append_item('Durian')
+items.append_item('Elderberry')
 
 print("Items in the Doubly linked list: ")
 items.print_foward()
