@@ -47,5 +47,6 @@ print("Items in the Doubly linked list: ")
 items.print_foward()
 
 # fix code:
-# add different items
+# add different items - done
 # write a function to search through the list and return true if the search input is found
+# function: foreach i in list -- if x == list[i]
