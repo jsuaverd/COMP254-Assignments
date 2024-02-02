@@ -48,7 +48,7 @@ class singly_linked_list:
             for val in items.iterate_item():
                 print(val, end=',')
         else:
-            print("\n\nNode 1 and Node 2 have the same values and cannot be swapped")
+            print("\n\nNode 1 and Node 2 have the same values and cannot be swapped\n")
 
 items = singly_linked_list()
 items.append_item('PHP')
@@ -56,9 +56,27 @@ items.append_item('Python')
 items.append_item('C#')
 items.append_item('C++')
 items.append_item('Java')
+print("List 1 items: \n")
 for val in items.iterate_item():
     print(val)
 print("\nhead.data: ",items.head.data)
 print("tail.data: ",items.tail.data)
 print("========")
 items.swapNodes()
+
+
+print("\n\n================================\n")
+
+items2 = singly_linked_list()
+items2.append_item('PHP')
+items2.append_item('PHP')
+items2.append_item('C#')
+items2.append_item('C++')
+items2.append_item('Java')
+print("List 2 items: \n")
+for val in items2.iterate_item():
+    print(val)
+print("\nhead.data: ",items2.head.data)
+print("tail.data: ",items2.tail.data)
+print("========")
+items2.swapNodes()
