@@ -36,6 +36,14 @@ class doubly_linked_list(object):
             current = current.next
             yield item_val
 
+    def contains(self, data):
+        current = self.head
+        while current:
+            if current.data == data:
+                return True
+            current = current.next
+        return False
+
 items = doubly_linked_list()
 items.append_item('Apple')
 items.append_item('Banana')
@@ -46,7 +54,9 @@ items.append_item('Elderberry')
 print("Items in the Doubly linked list: ")
 items.print_foward()
 
-# fix code:
-# add different items - done
-# write a function to search through the list and return true if the search input is found
-# function: foreach i in list -- if x == list[i]
+print("---------------------------------------")
+print("Items search: ")
+print("Is 'Apple' in the list?", items.contains('Apple'))
+print("Is 'Guava' in the list?", items.contains('Guava'))
+print("Is 'Durian' in the list?", items.contains('Durian'))
+print("Is 'Lemon' in the list?", items.contains('Lemon'))
