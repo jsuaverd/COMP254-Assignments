@@ -30,7 +30,7 @@ class singly_linked_list:
     def swapNodes(self):
         
         print("before swapNodes")
-        for val in items.iterate_item():
+        for val in self.iterate_item():
             print(val, end=',')
 
         if (self.head.data != self.head.next.data):
@@ -45,7 +45,7 @@ class singly_linked_list:
                 temp = None
             
             print("\n\nafter swapNodes")
-            for val in items.iterate_item():
+            for val in self.iterate_item():
                 print(val, end=',')
         else:
             print("\n\nNode 1 and Node 2 have the same values and cannot be swapped\n")
