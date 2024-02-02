@@ -33,19 +33,22 @@ class singly_linked_list:
         for val in items.iterate_item():
             print(val, end=',')
 
-        if (self.head != None):
-            temp = self.head
-            third_node = self.head.next.next
+        if (self.head.data != self.head.next.data):
+            if (self.head != None):
+                temp = self.head
+                third_node = self.head.next.next
 
-            self.head = self.head.next
-            self.head.next = temp
+                self.head = self.head.next
+                self.head.next = temp
 
-            temp.next = third_node
-            temp = None
-        
-        print("\n\nafter swapNodes")
-        for val in items.iterate_item():
-            print(val, end=',')
+                temp.next = third_node
+                temp = None
+            
+            print("\n\nafter swapNodes")
+            for val in items.iterate_item():
+                print(val, end=',')
+        else:
+            print("\n\nNode 1 and Node 2 have the same values and cannot be swapped")
 
 items = singly_linked_list()
 items.append_item('PHP')
