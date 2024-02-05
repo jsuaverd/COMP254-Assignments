@@ -16,7 +16,7 @@ print('-------------------------------------------------------------------------
 # shallow copy arr1 in arr2 using view()
 arr2 = arr1.view()
 # displaying the identity of arr2
-print('\nCopy of Array 1 (ID:' +  str(id(arr2)) + '):')
+print('\nArray 2 (Copy of Array 1) (ID:' +  str(id(arr2)) + '):')
 for item in arr2:
     print(item)
 print('--------------------------------------------------------------------------')
@@ -28,7 +28,7 @@ print('\nArray 1:')
 for item in arr1:
     print(item)
 print('--------------------------------------------------------------------------')
-print('\nArray 2:')
+print('\nArray 2 (Copy of Array 1):')
 for item in arr2:
     print(item)
 
@@ -45,7 +45,7 @@ print('-------------------------------------------------------------------------
 # deep copy arr1 in arr4 using copy()
 arr4 = arr3.copy()
 # displaying the identity of arr4
-print('\nCopy of Array 1 (ID:' +  str(id(arr4)) + '):')
+print('\nArray 4 (Copy of Array 3) (ID:' +  str(id(arr4)) + '):')
 for item in arr4:
     print(item)
 print('--------------------------------------------------------------------------')
@@ -57,6 +57,6 @@ print('\nArray 3:')
 for item in arr3:
     print(item)
 print('--------------------------------------------------------------------------')
-print('\nArray 4:')
+print('\nArray 4 (Copy of Array 3):')
 for item in arr4:
     print(item)
