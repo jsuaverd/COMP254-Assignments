@@ -63,7 +63,7 @@ my_instance = LinkedList_struct()
 
 my_input = input('Enter the elements of the linked list.. ').split()
 for data in my_input:
-   my_instance.add_elements(int(data))
+   my_instance.add_elements(data)
 
 last_node_points(my_instance)
 
