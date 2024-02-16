@@ -2,11 +2,14 @@ def gcd(a,b):
     c = max(a,b)
     d = min(a,b)
 
-    if c%d ==0:
+    if d == 0:
+        return c
+
+    elif c%d ==0:
        return d
+    
     else:
-        e = c%d
-        return gcd(d,e)
+        return gcd(d,c%d)
 
 
 a = int(input("Please enter a number: "))
