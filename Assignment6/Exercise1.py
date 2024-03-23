@@ -17,6 +17,7 @@ for i in range(n):
     print(A[i])
 print('\n-----------------------------')
 
-x = int(input("\nPlease enter a value: "))
-
-print(linear_search(A,x))
+k=2
+print('\nSearching for ' + str(k) + ' in the array using linear search...')
+print(linear_search(A,k))
+print('\n-----------------------------')
