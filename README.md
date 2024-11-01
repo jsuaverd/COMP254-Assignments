@@ -1,5 +1,4 @@
 # umist_face_recognition
 
-COMP 257 - Unsupervised and Reinforcement Learning
-Group 6
-<Team members>
+COMP 257 - Unsupervised and Reinforcement Learning <br/>
+Group 6 <br/>
