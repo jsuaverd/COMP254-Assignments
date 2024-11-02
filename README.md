@@ -15,6 +15,10 @@ COMP 257 - Unsupervised and Reinforcement Learning - Final Group Project
 
 ## Instructions <a name = "instructions"></a>
 
+#### Version 1.0.0 - Pham
+- Step 1: Run the preprocessing.ipynb file
+- Step 2: Run the clustering.ipynb file
+
 ## Authors <a name = "authors"></a>
 
 - Tuong Nguyen Pham - [@Currybon30](#https://github.com/Currybon30)
