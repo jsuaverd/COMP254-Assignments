@@ -1,6 +1,6 @@
 # umist_face_recognition
 
-COMP 257 - Unsupervised and Reinforcement Learning - Final Group Project
+COMP 257 - Unsupervised and Reinforcement Learning - Final Group Project - Fall 2024
 
 ## Table of Contents
 
