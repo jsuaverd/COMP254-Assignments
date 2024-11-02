@@ -1,5 +1,6 @@
 # umist_face_recognition
 
+Centennial College
 COMP 257 - Unsupervised and Reinforcement Learning - Final Group Project - Fall 2024
 
 ## Table of Contents
@@ -21,4 +22,6 @@ COMP 257 - Unsupervised and Reinforcement Learning - Final Group Project - Fall 
 
 ## Authors <a name = "authors"></a>
 
-- Tuong Nguyen Pham - +[@Currybon30](#https://github.com/Currybon30)
+- Tuong Nguyen Pham - [@Currybon30](#https://github.com/Currybon30)
+
+
