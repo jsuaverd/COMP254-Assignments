@@ -6,13 +6,39 @@ COMP 257 - Unsupervised and Reinforcement Learning - Final Group Project - Fall 
 ## Table of Contents
 
 + [About](#about)
-+ [Prerequisites](#prerequisites)
++ [Timeline](#timeline)
++ [Requirements](#requirements)
 + [Instructions](#instructions)
 + [Authors](#authors)
 
 ## About <a name = "about"></a>
 
-## Prerequisites <a name = "prerequisites"></a>
+## Timeline <a name = "timeline"></a>
+
+### Deliverable #1: Preprocessing and clustering
+- Explore the data
+- Preprocess the data
+  + Handle imbalanced data
+  + Scale/Normalize
+  + Reduce dimensionality (PCA, kPCA, Autoencoders)
+- Cluster the data
+  + KMeans
+  + DBSCAN
+  + Gaussian Mixture
+  + Hierarchical Clustering
+  + SOM
+
+### Deliverable #2: Classification
+- Apply neural network model to train and predict
+  + CNN
+
+## Requirements <a name = "requirements"></a>
+- scipy
+- matplotlib
+- numpy
+- pandas
+- tensorflow
+- sklearn
 
 ## Instructions <a name = "instructions"></a>
 
