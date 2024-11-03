@@ -1,6 +1,6 @@
 # umist_face_recognition
 
-Centennial College
+Centennial College <br/>
 COMP 257 - Unsupervised and Reinforcement Learning - Final Group Project - Fall 2024
 
 ## Table of Contents
