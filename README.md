@@ -49,5 +49,6 @@ COMP 257 - Unsupervised and Reinforcement Learning - Final Group Project - Fall 
 ## Authors <a name = "authors"></a>
 
 - Tuong Nguyen Pham - [@Currybon30](https://github.com/Currybon30)
+- Yi-Chen Hsu - [@Janjanhsu](https://github.com/Janjanhsu)
 
 
