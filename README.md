@@ -38,6 +38,7 @@ COMP 257 - Unsupervised and Reinforcement Learning - Final Group Project - Fall 
 - numpy
 - pandas
 - tensorflow
+- keras
 - sklearn
 
 ## Instructions <a name = "instructions"></a>
