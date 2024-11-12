@@ -40,6 +40,7 @@ COMP 257 - Unsupervised and Reinforcement Learning - Final Group Project - Fall 
 - tensorflow
 - keras
 - sklearn
+- DBCV
 
 ## Instructions <a name = "instructions"></a>
 
