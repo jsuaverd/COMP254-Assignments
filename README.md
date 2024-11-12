@@ -20,13 +20,12 @@ COMP 257 - Unsupervised and Reinforcement Learning - Final Group Project - Fall 
 - Preprocess the data
   + Handle imbalanced data
   + Scale/Normalize
-  + Reduce dimensionality (PCA, kPCA, Autoencoders)
+  + Reduce dimensionality (PCA, UMAP, Autoencoders)
 - Cluster the data
   + KMeans
   + DBSCAN
   + Gaussian Mixture
   + Hierarchical Clustering
-  + SOM
 
 ### Deliverable #2: Classification
 - Apply neural network model to train and predict
@@ -40,12 +39,11 @@ COMP 257 - Unsupervised and Reinforcement Learning - Final Group Project - Fall 
 - tensorflow
 - keras
 - sklearn
+- DBCV
 
 ## Instructions <a name = "instructions"></a>
 
-#### Version 1.0.0 - Pham
-- Step 1: Run the preprocessing.ipynb
-- Step 2: Run the clustering_kmeans.ipynb
+#### Updating
 
 ## Authors <a name = "authors"></a>
 
