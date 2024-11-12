@@ -20,7 +20,7 @@ COMP 257 - Unsupervised and Reinforcement Learning - Final Group Project - Fall 
 - Preprocess the data
   + Handle imbalanced data
   + Scale/Normalize
-  + Reduce dimensionality (PCA, kPCA, Autoencoders)
+  + Reduce dimensionality (PCA, UMAP, Autoencoders)
 - Cluster the data
   + KMeans
   + DBSCAN
