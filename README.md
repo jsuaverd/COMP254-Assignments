@@ -26,7 +26,6 @@ COMP 257 - Unsupervised and Reinforcement Learning - Final Group Project - Fall 
   + DBSCAN
   + Gaussian Mixture
   + Hierarchical Clustering
-  + SOM
 
 ### Deliverable #2: Classification
 - Apply neural network model to train and predict
