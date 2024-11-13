@@ -27,7 +27,6 @@ class HierarchicalModel:
             raise ValueError("Model has not been fitted yet. Please call fit_predict first.")
         unique_clusters = np.unique(self.fit_clusters)
         centroids = np.array([np.mean(self.fit_data[self.fit_clusters == i], axis=0) for i in unique_clusters])
-        print(centroids.shape)
         distances_to_centroids = cdist(new_data, centroids, metric=self.metric)
         predicted_clusters = unique_clusters[np.argmin(distances_to_centroids, axis=1)]
         return predicted_clusters
