@@ -42,8 +42,8 @@ COMP 257 - Unsupervised and Reinforcement Learning - Final Group Project - Fall 
 - DBCV
 
 ## Instructions <a name = "instructions"></a>
-
-#### Updating
+#### Install DBCV
+Command: pip install git+https://github.com/christopherjenness/DBCV.git
 
 ## Authors <a name = "authors"></a>
 
