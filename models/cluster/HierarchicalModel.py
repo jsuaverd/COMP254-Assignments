@@ -1,5 +1,7 @@
 from scipy.cluster.hierarchy import linkage, fcluster
 from scipy.spatial.distance import pdist, cdist
+from scipy.cluster.hierarchy import dendrogram
+import matplotlib.pyplot as plt
 import numpy as np
 
 
@@ -20,7 +22,7 @@ class HierarchicalModel:
         # Assign clusters
         clusters = fcluster(distances, self.n_clusters, criterion='maxclust')
         self.fit_clusters = clusters  # Store the clusters
-        return clusters, distances
+        return clusters
 
     def predict(self, new_data):
         if self.fit_data is None:
