@@ -1,1 +1,3 @@
-backup
+.DS_Store
+.ipynb_checkpoints/clustering_hierarchical_UMAP_v1-checkpoint.ipynb
+.ipynb_checkpoints/CNN-checkpoint.ipynb
